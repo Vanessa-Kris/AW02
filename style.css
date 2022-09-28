@@ -1,0 +1,9 @@
+.page1 {
+    padding: 20px;
+    text-align: center;
+}
+.page1 h1{
+    font-size: 3rem;
+    padding-top: 100px;
+    font-family: Ubuntu, sans-serif;
+}
