@@ -25,9 +25,9 @@
 }
 
 .swob {
-    background-color: rgb(232, 228, 228);
-    padding-top: 100px;
-    height: 1300px;
+    background-color: rgb(203, 207, 212);
+    padding: 100px;
+    /* height: 1300px; */
 }
 
 .swob h5 {
@@ -35,4 +35,8 @@
     padding: 20px;
     padding-bottom: 35px;
     /* color: rgb(114, 112, 112); */
+}
+
+.cardtitle {
+    padding-left: 100px;
 }
