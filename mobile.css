@@ -5,6 +5,10 @@
         line-height: 30px;
     }
 
+    .bannerimg {
+        height: 350px;
+    }
+
     /* .video {
         width: "100";
         height: "100";
@@ -25,7 +29,7 @@
     }
 
     .who {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 30px;
         align-items: center !important;
         justify-content: center !important;
@@ -33,5 +37,31 @@
         /* word-spacing: 7px; */
     }
 
+    .everyone {
+        width: 250px;
+        height: 200px;
+    }
     
+    .blog1 {
+        padding-bottom: 20px;
+    }
+
+    .whoimg {
+        width: 350px;
+        padding: 0px;
+    }
+
+    .whatimg {
+        display: none; 
+        /* width: 350px; */
+        padding: 0px;
+    }
+
+    .what {
+        padding: 0px;
+    } 
+
+    .row {
+        padding: 0px;
+    }
 }

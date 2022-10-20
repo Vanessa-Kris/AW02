@@ -8,6 +8,11 @@
     font-family: Ubuntu, sans-serif;
 }
 
+.bannerimg {
+    height: 550px;
+    width: 700px;
+}
+
 .fa-sharp {
     border: 7px;
     border-radius: 50%;
@@ -39,7 +44,7 @@ a {
 }
 
 .who {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 50px;
     padding-left: 40px;
     word-spacing: 7px;
@@ -48,10 +53,16 @@ a {
 .whoh1 {
     padding-left: 40px;
     padding-top: 30px;
+    color: rgb(99, 99, 99);
 }
 
 .culture {
     margin: 100px;
+}
+
+.location {
+    background-color: #f1f1f2;
+    padding: 1px;
 }
 
 .culture h6 {
@@ -82,12 +93,30 @@ a {
     width: 540px;
 }
 
-.whotxt {
+/* .whotxt {
     background-color: rgb(17, 60, 134);
     opacity: 90%;
-}
+}*/
 
 .what {
-    background-color: rgb(91, 91, 91);
+    padding: 40px;
+} 
+
+.everyone {
+    width: 450px;
+    height: 300px;
 }
+
+.whoimg {
+    width: 550px;
+    padding: 40px;
+}
+
+.whatimg {
+    width: 550px;
+}
+
+/* .row {
+    padding: 20px;
+} */
 
