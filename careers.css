@@ -1,6 +1,6 @@
 body {
     background: #ffffff;
-    color: rgb(32, 68, 152);
+    color: #204498;
   }
   
   
@@ -39,7 +39,7 @@ body {
     color: #4FEBFE;
   }
   
-  p {
+  .careertxt{
     text-align: center;
     margin: 18px;
     font-family: 'Muli', sans-serif;
@@ -74,4 +74,9 @@ body {
     -webkit-transform: scale(1.2);
     text-decoration: none;
     
+  }
+
+  a {
+    text-decoration: none;
+    color: #204498;
   }

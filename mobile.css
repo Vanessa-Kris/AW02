@@ -9,11 +9,11 @@
         height: 350px;
     }
 
-    video {
+    /* video {
         width: 150px;
-        /* padding: 30px; */
+        padding: 30px;
         height: 200px;
-    }
+    } */
 
     .blog-img {
         width: 250px;
@@ -23,6 +23,10 @@
     .car {
         width: 340px;
         height: 150px;
+    }
+
+    .cardtitle {
+        padding-left: 0px;
     }
 
     .img {
