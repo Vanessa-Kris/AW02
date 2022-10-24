@@ -2,6 +2,66 @@
     scroll-behavior: smooth;
 }
 
+/*Navigation css section*/
+nav {
+	background: rgb(255, 255, 255);
+	text-align: start;
+	position: sticky;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.navbar-toggle-icon {
+	background-color: #03418c;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav ul li a {
+	color: #5b5bdf;
+	font-weight: 20px;
+	position: relative;
+	padding: 5px 0;
+	text-decoration: none;
+}
+
+.active,
+a:hover {
+	color: #155ada !important;
+}
+
+.active,
+a:active {
+	color: #3B2EC8 !important;
+}
+
+nav ul li a:hover {
+	color: #155ada;
+
+
+}
+
+nav ul li a:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background: #4787fd;
+	transition: .3s;
+	bottom: 0;
+}
+
+nav ul li a:hover:after {
+	width: 100%;
+}
+
+/*  */
+
 .headers {
     font-size: 3rem;
     padding-top: 100px;
@@ -111,5 +171,9 @@ video {
 
 .whatimg {
     width: 550px;
+}
+
+.card {
+    box-shadow: none;
 }
 
